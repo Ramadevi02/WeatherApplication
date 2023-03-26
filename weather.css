@@ -1,0 +1,76 @@
+.full{
+    background-color: rgb(255 182 101);
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.input-group{
+    width: 70%;
+}
+.result{
+    background-color: rgb(238 220 108);
+    margin: 1rem 2rem;
+    border-radius: 2.5pc;
+    padding: 2rem;
+    box-shadow: 0.1rem 0.2rem 1rem;
+}
+.input-group input{
+    width: 70%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+.input-group button{
+    width: 20%;
+    border-radius: 0;
+    background-color: transparent;
+    color: black;
+}
+.input-group input:focus, .input-group button:focus{
+    border-color: none;
+    box-shadow: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.location i{
+    padding-right: 10px;
+}
+.Weather-icon{
+    height: 12rem;
+    margin-top: -1.5rem;
+}
+.weather{
+    margin-top: -2rem;
+}
+.temp{
+    font-size: 9pc;
+    margin-right: -1.5rem;
+}
+.wind-container{
+    display: flex;
+    justify-content: center;
+}
+.wind-container i{
+    padding-right: 0.7rem;
+}
+.speed, .humidity{
+    padding: 0.3rem 2rem;
+}
+.temp-container{
+    display: flex;
+    justify-content: center;
+}
+.min-temp, .max-temp{
+    background-color: rgb(246 204 128);
+    margin: 1rem;
+    border-radius: 1pc;
+    padding: 1rem 2rem;
+    /* box-shadow: .1rem 0.3rem 1rem ; */
+}
+.min-temp i, .max-temp i{
+    color: white;
+    font-size: 3pc;
+}
+.minTemp, .maxTemp{
+    margin-top: 1rem;
+}
